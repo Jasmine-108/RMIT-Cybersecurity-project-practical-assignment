@@ -43,5 +43,68 @@ Staff access the workplace network to run their personal devices included smart 
 
 While they do not expect to be able to solve all problems immediately, they do wish to secure the current infrastructure using a range of security tools and software, physical infrastructure, access management and regular monitoring.  Additional infrastructure, tools and processes should be recommended for implementation and a plan for implementation established that enables the company directors to budget for the additional costs.  
 
+# Virtual Machines
+Each group memeber was tasked with creating a list of virtual machines being:
+* Windows 10 (client)
+* Windows Server
+* Linux Ubuntu (Elkstack)
+* PFSENSE
+* Kali Linux
 
+**WINDOWS SERVER**
+
+The Windows Server was promoted to a `domain controller` and the client was joined to that domain 
+- The domain needed to be named the name of our group in our case it was Fix Ur Things
+  
+![image](https://github.com/Jasmine-108/RMIT-Cybersecurity-project-practical-assignment/assets/151819725/2bb6c306-aefd-4579-a1fe-f43efe1e4741)
+
+
+**PFSENSE** 
+
+Since all machines were in an internal network pfsense requires 2 adaptors for connecting with the internal network and the outside network alloing all machiens in the internal network to connect to the internet
+
+![image](https://github.com/Jasmine-108/RMIT-Cybersecurity-project-practical-assignment/assets/151819725/e2e57c54-860a-40c3-807c-05cdd3fbd36a)
+
+
+- Windows Server connecting to Youtube through pfsense
+   
+![image](https://github.com/Jasmine-108/RMIT-Cybersecurity-project-practical-assignment/assets/151819725/d6e9dbec-c93d-4e1a-9621-b44778f887f7)
+
+
+We were also tasked with setting `SNORT` on pfsense
+
+![image](https://github.com/Jasmine-108/RMIT-Cybersecurity-project-practical-assignment/assets/151819725/c798ab01-57a7-497e-83eb-23d5b21b3a0c)
+
+- snort detecting traffic
+
+**ELASTIC**
+
+We were tasked with installing elastic on ubuntu and linking it to our server with winlogbeat
+
+![image](https://github.com/Jasmine-108/RMIT-Cybersecurity-project-practical-assignment/assets/151819725/7690afc1-5be0-451a-aae3-b2fa4649e9bf)
+
+
+# Appendix 4 – Implementaion plan
+I was assigned with explaining a `Phishing` attack and demonstrating why these are dangerous to the organisation and how we can prevent from the attack from happening
+
+`Zphisher` was installed and use on kali to demonstrate how this attack works
+
+![image](https://github.com/Jasmine-108/RMIT-Cybersecurity-project-practical-assignment/assets/151819725/4b842c86-f32b-4fe8-8030-764febfc9947)
+
+# Appendix 5 – Technical Documentation 
+Instructions:  
+
+Use each of the headings below to plan and prepare your technical documentation.  
+
+You must address each heading and its prompts with knowledge and instructions in plain-English. You should assume that the end-user is a lay person with no experience in cybersecurity.  This means you should consider the who, what, when, where how and why of each prompt and use screen shots, images, and diagrams where possible. 
+
+I was tasked with explaining Configuring Firewalls the things I had to explain were:
+* Explain how firewalls are to be used in the client workplace as identified in your planned solution.
+* Give instructions for configuring or maintaining the firewall as it applies post-implementation of your planned solution.
+
+# Project plan
+
+I worked on the `wireless netowrks` section of the project plan
+
+![image](https://github.com/Jasmine-108/RMIT-Cybersecurity-project-practical-assignment/assets/151819725/ed4a9892-f4e4-4c39-9f27-bb43a039b47a)
 
